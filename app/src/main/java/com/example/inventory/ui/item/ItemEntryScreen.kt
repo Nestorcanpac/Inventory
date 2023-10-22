@@ -90,7 +90,7 @@ fun ItemEntryBody(
         coroutineScope.launch {
         }
     },
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier.padding()
 ) {
     Column(
         verticalArrangement = Arrangement.spacedBy(dimensionResource(id = R.dimen.padding_large)),
